@@ -1,0 +1,11 @@
+body {
+    background: maroon;
+  }
+  
+  h1 {
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Bubble Letters', cursive, sans-serif;
+    color: white;
+  }
