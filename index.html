@@ -1,11 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <link rel="stylesheet" href="style.css" />
-    <title>My Personal Website</title> 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css" />
+  <title>My Personal Website</title>
 </head>
 <body>
-    <h1>Auriel Bartges</h1>
-    <script src="script.js"></script>
-  </body>
+  <div class="center-container">
+    <h1>Auriel's Website</h1>
+    <div class="circle">
+      <img src="https://images.unsplash.com/photo-1523626797181-8c5ae80d40c2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8c2lsbHklMjBibGFjayUyMGFuZCUyMHdoaXRlfGVufDB8MXwwfHx8MA%3D%3D&auto=format&fit=crop&w=700&q=60" alt="Auriel">
+    </div>
+    <button id="openButton" class="large-button">Get to know Auriel</button>
+  </div>
+  <div id="modalContainer" class="modal">
+    <div class="modal-content">
+      <span id="closeButton" class="close">&times;</span>
+      <p>Fantastic! You now know Auriel. Stellar job!</p>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
 </html>
